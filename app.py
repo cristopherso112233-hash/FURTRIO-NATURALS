@@ -11,7 +11,7 @@ PRODUCTS = [
         "name": "Goat Milk & Honey Soap",
         "price": 130,
         "description": "A warm, creamy blend of goat milk and honey",
-        "badge": "GOAT MILK",
+        "badge": "GOAT MILK & HONEY",
     },
 ]
 
