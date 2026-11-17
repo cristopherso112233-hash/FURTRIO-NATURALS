@@ -23,7 +23,7 @@ PUBLIC_ASSETS = {
     "script.js",
     "842308706_122126653059126502_4774686602454261953_n.jpg",
     "goatmilk.png",
-    "CEO.jpg",
+    "john.jpg",
     "furtio-naturals-logo-header.png",
     "paula.jpg",
     "packaging01.jpg",

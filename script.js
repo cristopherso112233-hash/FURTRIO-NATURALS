@@ -33,6 +33,25 @@ const ceoDialog = document.querySelector("#ceo-dialog");
 const ceoOpenButton = document.querySelector(".ceo-open");
 const ceoCloseButton = document.querySelector(".ceo-close");
 
+const storyDialog = document.querySelector("#story-dialog");
+const storyCloseButton = document.querySelector(".story-close");
+
+if (storyDialog instanceof HTMLDialogElement && storyCloseButton) {
+    document.querySelectorAll(".story-open").forEach((link) => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            storyDialog.showModal();
+        });
+    });
+
+    storyCloseButton.addEventListener("click", () => storyDialog.close());
+    storyDialog.addEventListener("click", (event) => {
+        if (event.target === storyDialog) {
+            storyDialog.close();
+        }
+    });
+}
+
 if (ceoDialog instanceof HTMLDialogElement && ceoOpenButton && ceoCloseButton) {
     ceoOpenButton.addEventListener("click", () => ceoDialog.showModal());
     ceoCloseButton.addEventListener("click", () => ceoDialog.close());
