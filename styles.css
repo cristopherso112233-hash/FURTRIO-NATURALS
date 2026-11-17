@@ -301,6 +301,11 @@ h2 { margin-bottom: 0; font-size: clamp(32px, 4vw, 46px); font-weight: 500; line
 .story-values section { padding: 18px; border: 1px solid var(--line); background: #fffaf0; }
 .story-values h3 { margin: 0 0 8px; color: var(--green); font-family: "Playfair Display", Georgia, serif; font-size: 17px; }
 .story-values p { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.7; }
+.story-product { margin: 24px 0; padding: 20px; border-left: 3px solid var(--lime); background: #fffaf0; }
+.story-product h3 { margin: 0 0 9px; color: var(--green); font-family: "Playfair Display", Georgia, serif; font-size: 19px; }
+.story-product p { margin: 0 0 10px; color: var(--muted); font-size: 12px; line-height: 1.75; }
+.story-product p:last-child { margin-bottom: 0; }
+.story-product strong { color: var(--ink); }
 .story-content > .story-note { padding-top: 16px; border-top: 1px solid var(--line); font-size: 11px !important; }
 .story-content > .story-signoff { margin: 23px 0 0; color: var(--ink) !important; font-size: 12px !important; }
 .story-signoff strong { color: var(--green); }
